@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="z2.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .black{
+            height: 550vh;
+            width: 200vh;
+            background-color: black;
+        }
+        .background{
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(netbck.jpg);
+            height: 700px;
+            width: 200vh;
+        }
+        .head{
+            height: 100px;
+            width: 100%;
+            position: absolute;
+            
+        }
+        .logo{
+            background-image: url(back.png);
+            height: 54px;
+            width: 150px;
+            background-size: contain;
+            position: absolute;
+            top: 17px;
+            left: 190px;
+            color: #E50914;
+        }
+        .select1{
+            height: 31px;
+            width: 124px;
+            background-color: transparent;
+            color: white;
+            font-weight: 700px;
+            border-radius: 4px;
+            text-align: center;
+            font-size: medium   ;
+            position: absolute;
+            top: 27px;
+            right: 250px;
+        }
+        .button1{
+            height: 31px;
+            width: 90px;
+            background-color: #E50914;
+            color: white;
+            font-weight: 700px  ;
+            border-radius: 4px;
+            font-size: medium   ;
+            position: absolute;
+            top: 27px;
+            right: 125px;
+            border: none;
+        }
+        .theory{
+            
+            padding-top: 350px;
+            height: 20px;
+            width: 100%;
+            color: #FFFFFF;
+            font-size: 1.7rem;
+            font-weight: 900;
+            font-style:sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .theory2{
+            text-align: center;
+            color: white;
+            padding-top: 40px;
+            font-weight: 500;
+            font-size: 30px;
+            
+        }
+        .theory3{
+            font-size: x-large;
+            color: white;
+            text-align: center;
+            padding-top: 32px;
+        }
+        .input1{
+            position: absolute;
+            left: 600px;
+            padding-top: 30px;
+            color: white;
+        }
+        .inputt{
+            height: 70px;
+            width: 371px;
+            background-color: transparent;
+            font-size: large;
+            font-weight: 700;
+            position: absolute;
+            border-radius: 4px;
+            border: 1px solid white;
+            padding-left: 20px;
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)
+            
+        
+        }
+        /* input ::placeholder{
+            color: white;
+         } */
+        
+        .butt{
+            padding-top: 30px;
+        }
+        .button2{
+            height: 70px;
+            width: 180px;
+            position: absolute;
+            right: 570px;
+            background-color: #E50914;
+            color: white;
+            font-size: x-large;
+            border-radius: 4px;
+        }
+        .part2{
+            height: 7px;
+            width: 100%;
+            background-color: rgb(39, 38, 38);
+        }
+        .add1{
+            height: 75vh;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        
+        }
+        .addc{
+            width: 50%;
+            
+        }
+        .add1logo{
+            width: 50%;
+            font-size: 50px;
+        }
+        .addd{
+            font-size: 60px;
+            padding-left: 90px;
+        
+        }
+        .adddd{
+            font-size: 25px;
+            position: absolute;
+            padding-top: 25px;
+            left: 250px;
+            
+        
+        }
+        .adddd1{
+            font-size: 25px;
+            position: absolute;
+            padding-top: 55px;
+            left: 250px;
+        }
+        .addd2{
+            font-size: 60px;
+            padding-right: 250px;
+            
+            
+        
+        }
+        .adddd2{
+            font-size: 25px;
+            position: absolute;
+            padding-top: 40px;
+            right: 140px;
+        }
+        .adddd21{
+            padding-top: 80px;
+            font-size: 25px; 
+            position: absolute;   
+            right: 540px;
+        }
+        
+        .ques{
+            height: 1000px;
+            width: 100%;
+        
+        }
+        .mainq{
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            padding-top: 70px;
+            padding-bottom: 30px;
+            
+        }
+        .aq{
+            height:90px;
+            width: 1250px;
+            background-color:   rgb(44, 42, 42);
+            margin-top: 10px;
+            margin-left: 250px;
+            margin-right: 300px;
+            color: white;
+            font-size: xx-large;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 30px;
+            background-image: url(plus2.png);
+            background-size: cover  ;
+            
+        }
+        
+            
+        
+        .email2{
+            height: 20px;
+            width: 100%;
+            color: white;
+            font-size: 25px;
+            margin-top: 40px;
+            text-align: center;
+        }
+        
+        .footerpan{
+            height: 400px;
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+        ul a{
+            display: block;
+            padding-top: 15px;
+            font-size: 20px;
+            color: whites;
+        }
+        a{
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="black">
+        <div class="background" >
+            <div class="head">
+                <div class="logo"></div>
+                <div class="select">
+                    <select class="select1">
+                        <option class="language">English</option>
+                    </select>
+                </div>
+                <div class="signin">
+                    <button class="button1">
+                        Sign in
+                    </button>
+                </div>
+                
+            </div>
+            <div class="theory">
+                <h1>Unlimited movies, TV shows and more</h1>
+            </div>
+            <div class="theory2">
+                <p>Watch anywhere. Cancel anytime.</p>
+            </div>
+            <div class="theory3">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+            <div class="input1">
+                <input placeholder="Email address" class="inputt" >
+                
+            </div>
+            <div class="butt">
+                <button class="button2">Get Started    </button>
+            </div>
+            
+        </div>
+        <div class="part2">
+            
+        </div>
+        <div class="add1">
+            <div class="addc">
+                <h1 class="addd">
+                    Enjoy on your TV
+                </h1>
+                <p class="adddd">
+                    Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple
+                </p>
+                <p class="adddd1">
+                    TV, Blu-ray players and more.
+                </p>
+            </div>
+            <div class="add1logo">
+                <img src="add1.png" alt="">
+            </div>
+        </div>
+        <div class="part2">
+            
+        </div>
+
+
+
+
+
+        <div class="add1">
+            <div class="add1logo">
+                <img src="add2.png" alt="">
+            </div>
+            <div class="addc">
+                <h1 class="addd2">
+                    Download your shows to watch offline
+                </h1>
+                <p class="adddd2">
+                    Save your favourites easily and always have something to  watch.
+                </p>
+                <p class="adddd21"></p>
+            </div>
+        </div>
+        <div class="part2">
+        </div>
+
+
+
+        <div class="add1">
+            <div class="addc">
+                <h1 class="addd">
+                    Watch everywhere
+                </h1>
+                <p class="adddd">
+                    Stream unlimited movies and TV shows on your phone, tablet
+                </p>
+                <p class="adddd1">
+                    laptop, and TV.
+                </p>
+            </div>
+            <div class="add1logo">
+                <img src="add3.png" alt="">
+            </div>
+        </div>
+        <div class="part2">
+        </div>
+
+
+
+
+        <div class="add1">
+            <div class="add1logo">
+                <img src="add4.png" alt="">
+            </div>
+            <div class="addc">
+                <h1 class="addd2">
+                    Create profiles for kids
+                </h1>
+                <p class="adddd2">
+                    Send children on adventures with their favourite characters in a
+                </p>
+                <p class="adddd21">free with your membership.</p>
+            </div>
+        </div>
+        <div class="part2">
+        </div>
+
+
+
+        <div class="ques">
+            <div class="mainq">
+                <h1 class="mainq1">Frequently Asked Questions</h1>
+            </div>
+            <div class="aq border">
+                What is netflix?
+                <img  src="plus2.png">
+            </div>
+            <div class="aq border">
+                How much does netflix cost?
+                <img  src="plus2.png">
+            </div>
+                
+            <div class="aq border">
+                Where can i watch?
+                <img  src="plus2.png">
+            </div>
+
+
+            <div class="aq border">
+                How do i cancel?
+                <img  src="plus2.png">
+            </div>
+
+
+            <div class="aq border">
+                What can i watch on netflix?
+                <img  src="plus2.png">
+            </div>
+
+
+            <div class="aq border">
+                Is netflix good for kids?
+                <img  src="plus2.png">
+            </div>
+
+            <div class="email2">
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+            <div class="input1">
+                <input placeholder="Email address" class="inputt" >
+                
+            </div>
+            <div class="butt">
+                <button class="button2">Get Started    </button>
+            </div>
+        </div>
+        <div class="part2">
+        </div>
+
+        <footer>
+            <div class="footerpan">
+                <ul>
+                    <a href="#">FAQ</a>
+                    <a href="#">Invetor Relation</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Speed Test</a>
+                </ul>
+                <ul>
+                    <a href="#">help center</a>
+                    <a href="#">jobs</a>
+                    <a href="#">cookies preferances</a>
+                    <a href="#">legal noticess</a>
+                </ul>
+                <ul>
+                    <a href="#">account </a>
+                    <a href="#">ways to watch</a>
+                    <a href="#">corporate information</a>
+                    <a href="#">only on netflix</a>
+                </ul>
+                <ul>
+                    <a href="#">media center</a>
+                    <a href="#">terms of use </a>
+                    <a href="#">contact us</a>
+                    <a href="#">Customer service</a>
+                </ul>
+                
+            </div>
+            <div class="select">
+                <select class="select1">
+                    <option class="language">English</option>
+                </select>
+            </div>
+        </footer>
+    
+    </div>
+</body>
+</html>
