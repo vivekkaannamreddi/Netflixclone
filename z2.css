@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.black{
+    height: 550vh;
+    width: 200vh;
+    background-color: black;
+}
+.background{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(netbck.jpg);
+    height: 700px;
+    width: 200vh;
+}
+.head{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    
+}
+.logo{
+    background-image: url(back.png);
+    height: 54px;
+    width: 150px;
+    background-size: contain;
+    position: absolute;
+    top: 17px;
+    left: 190px;
+    color: #E50914;
+}
+.select1{
+    height: 31px;
+    width: 124px;
+    background-color: transparent;
+    color: white;
+    font-weight: 700px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: medium   ;
+    position: absolute;
+    top: 27px;
+    right: 250px;
+}
+.button1{
+    height: 31px;
+    width: 90px;
+    background-color: #E50914;
+    color: white;
+    font-weight: 700px  ;
+    border-radius: 4px;
+    font-size: medium   ;
+    position: absolute;
+    top: 27px;
+    right: 125px;
+    border: none;
+}
+.theory{
+    
+    padding-top: 350px;
+    height: 20px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 1.7rem;
+    font-weight: 900;
+    font-style:sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.theory2{
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+.theory3{
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+}
+.input1{
+    position: absolute;
+    left: 600px;
+    padding-top: 30px;
+    color: white;
+}
+.inputt{
+    height: 70px;
+    width: 371px;
+    background-color: transparent;
+    font-size: large;
+    font-weight: 700;
+    position: absolute;
+    border-radius: 4px;
+    border: 1px solid white;
+    padding-left: 20px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)
+    
+
+}
+/* input ::placeholder{
+    color: white;
+ } */
+
+.butt{
+    padding-top: 30px;
+}
+.button2{
+    height: 70px;
+    width: 180px;
+    position: absolute;
+    right: 570px;
+    background-color: #E50914;
+    color: white;
+    font-size: x-large;
+    border-radius: 4px;
+}
+.part2{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+}
+.add1{
+    height: 75vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+
+}
+.addc{
+    width: 50%;
+    
+}
+.add1logo{
+    width: 50%;
+    font-size: 50px;
+}
+.addd{
+    font-size: 60px;
+    padding-left: 90px;
+
+}
+.adddd{
+    font-size: 25px;
+    position: absolute;
+    padding-top: 25px;
+    left: 250px;
+    
+
+}
+.adddd1{
+    font-size: 25px;
+    position: absolute;
+    padding-top: 55px;
+    left: 250px;
+}
+.addd2{
+    font-size: 60px;
+    padding-right: 250px;
+    
+    
+
+}
+.adddd2{
+    font-size: 25px;
+    position: absolute;
+    padding-top: 40px;
+    right: 140px;
+}
+.adddd21{
+    padding-top: 80px;
+    font-size: 25px; 
+    position: absolute;   
+    right: 540px;
+}
+
+.ques{
+    height: 1000px;
+    width: 100%;
+
+}
+.mainq{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    
+}
+.aq{
+    height:90px;
+    width: 1250px;
+    background-color:   rgb(44, 42, 42);
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 300px;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    background-image: url(plus2.png);
+    background-size: cover  ;
+    
+}
+
+    
+
+.email2{
+    height: 20px;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.footerpan{
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+ul a{
+    display: block;
+    padding-top: 15px;
+    font-size: 20px;
+    color: whites;
+}
+a{
+    color: white;
+}
